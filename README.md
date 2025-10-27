@@ -11,22 +11,21 @@ Tugas ke-1: Mengenal GitHub dan membuat program pertama "Hello, GitHub"
 ## Instruksi Tugas
 - Join GitHub Classroom menggunakan link yang telah dibagikan
 - Buat program C++ dengan output "Hello, GitHub!"
-- git add .
-- git commit -m "Menampilkan Hello GitHub"
-- git push
+- Jalankan dari gitbash / terminal / cmd satu persatu saja:
+```bash
+git init
+curl https://raw.githubusercontent.com/github/gitignore/main/C++.gitignore -o .gitignore
+git add .
+git commit -m "Menampilkan Hello GitHub"
+git push
+```
 - Cek di GitHub kalau kodenya sudah tampil di repo
 - Jangan ubah struktur folder
 
 
-## 🧰 **Isi `.gitignore`**
+## 🧰 **Tambahin di `.gitignore` kalau pake VSCode**
 
 ```gitignore
-# Build files
-*.exe
-*.out
-*.obj
-*.o
-
 # Editor settings
 .vscode/
 .idea/
